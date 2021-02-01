@@ -1,0 +1,32 @@
+{
+    "name": "ghost/captcha",
+    "description": "验证码",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/ghost/captcha",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ghost",
+            "email": "wangqun1436@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0",
+        "mews/captcha": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ghost\\Captcha\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Ghost\\Captcha\\CaptchaServiceProvider",
+        "laravel": {
+            "providers": [
+                "Ghost\\Captcha\\CaptchaServiceProvider"
+            ]
+        }
+    }
+}
