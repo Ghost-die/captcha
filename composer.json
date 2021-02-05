@@ -3,7 +3,7 @@
     "description": "验证码",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
-    "homepage": "https://github.com/ghost/captcha",
+    "homepage": "https://github.com/ghost-die/captcha",
     "license": "MIT",
     "authors": [
         {
